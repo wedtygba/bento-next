@@ -11,13 +11,13 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'greggory',
   openInNewTab: true,
   title: 'Bento',
   launchAnimation: true, // animate a button tile opening (only when openInNewTab is true)
 
   // Clock
-  twelveHourFormat: false,
+  twelveHourFormat: true,
   flashSeparator: false,
 
   // Font Family
@@ -29,7 +29,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'latte-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
@@ -93,9 +93,9 @@ export const config: Config = {
     searchBar: true,
     themeButton: true,
     clock: true,
-    greeter: true,
+    greeter: false,
     date: true,
-    weather: true,
+    weather: false,
   },
 
   // Buttons
@@ -111,7 +111,7 @@ export const config: Config = {
       {
         name: 'Mail',
         icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        url: 'https://mail.google.com/mail/u/0/#inbox',
       },
       {
         name: 'Todoist',
@@ -131,7 +131,7 @@ export const config: Config = {
       {
         name: 'Odysee',
         icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        url: 'https://www.youtube.com/',
       },
     ],
     // Second buttons group
@@ -280,7 +280,7 @@ export const config: Config = {
           },
           {
             name: 'Repos',
-            url: 'https://github.com/migueravila',
+            url: 'https://github.com/wedtygba',
           },
         ],
       },
