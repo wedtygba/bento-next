@@ -1,11 +1,7 @@
 name: Build and Publish to Pages
 on: [push]
-jobs:
-  build_vue:
-    runs-on: ubuntu-latest
-    name: Build Vue
-    steps:
-    using: "composite"
+runs:
+  using: "composite"
   steps:
       - name: Build Vue
         run: |
