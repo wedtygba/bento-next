@@ -1,6 +1,6 @@
 name: Build and Publish to Pages
 on: [push]
-runs:
+jobs:
   using: "composite"
   steps:
       - name: Build Vue
