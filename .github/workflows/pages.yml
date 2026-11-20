@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: Build-Vue
-      uses: wedtygba/VuePagesAction@v1.0.2
+      uses: wedtygba/VuePagesAction@release
       with:
         username: 'wedtygba'
         reponame: 'bento-next'
